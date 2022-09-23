@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GitHub Commits</title>
+
+		<script src="./src.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<h1>Retrieve a list of latest 100 commits from a Github branch</h1>
+
+		<form>
+			<label for="branchName">Branch name <i>(including repo)</i>:</label>
+			<input type="text" id="branchName" name="branchName" /><br /><br />
+			<input type="button" value="Submit" onclick="DisplayCommits()" />
+		</form>
+	</body>
+</html>
